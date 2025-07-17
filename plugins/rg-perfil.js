@@ -80,6 +80,6 @@ const handler = async (m, { conn }) => {
 handler.help = ['profile2']
 handler.tags = ['rg']
 handler.command = ['profile', 'perfil']
-handler.register = true
+handler.register = False
 
 export default handler

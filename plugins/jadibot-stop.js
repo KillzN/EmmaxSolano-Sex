@@ -9,7 +9,7 @@ handler.command = handler.help = ['stop', 'byebot'];
 handler.tags = ['serbot'];
 handler.owner = true
 handler.private = true
-//handler.register = true
+//handler.register = False
 export default handler*/
 
 let handler = async (m, { conn }) => {

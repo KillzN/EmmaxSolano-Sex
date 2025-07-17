@@ -28,10 +28,10 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
       await conn.reply(m.chat, '*✖️ Error al analizar la imagen.*', m)
     }
   } else {
-    if (!text) { 
+    if (!text) {
       return conn.reply(m.chat, `*${xia} Ingresa un texto para hablar con Luminai*`, m)
     }
-    
+
     await conn.sendPresenceUpdate('composing', m.chat) // Indica que está escribiendo
 
     try {
@@ -48,7 +48,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 
 handler.help = ['ia']
 handler.tags = ['tools']
-//handler.register = true
+//handler.register = False
 handler.command = ['luminai', 'ia', 'ai']
 export default handler
 
@@ -56,7 +56,7 @@ async function fetchImageBuffer(content, imageBuffer) {
   try {
     const response = await axios.post('https://Luminai.my.id', {
       content: content,
-      imageBuffer: imageBuffer 
+      imageBuffer: imageBuffer
     }, {
       headers: { 'Content-Type': 'application/json' }
     })

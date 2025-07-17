@@ -17,7 +17,7 @@ return conn.sendFile(m.chat, buffer, 'audio.mp3', '', m, { mimetype: 'audio/mp3'
 handler.help = ['read']
 handler.tags = ['herramientas']
 handler.command = ['readviewonce', 'read', 'readvo', 'ver'] 
-//handler.register = true 
+//handler.register = False 
 
 export default handler;
 */
@@ -51,6 +51,6 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['read']
 handler.tags = ['herramientas']
-handler.command = ['readviewonce', 'read', 'readvo', 'ver'] 
+handler.command = ['readviewonce', 'read', 'readvo', 'ver']
 
 export default handler;

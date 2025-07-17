@@ -3,8 +3,8 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 
 const handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!db.data.chats[m.chat].nsfw && m.isGroup) {
-    return m.reply(hotw);
+    if (!db.data.chats[m.chat].nsfw && m.isGroup) {
+        return m.reply(hotw);
     }
 
     if (!args[0]) {
@@ -39,7 +39,7 @@ if (!db.data.chats[m.chat].nsfw && m.isGroup) {
 };
 
 handler.command = ['xvideossearch', 'xvsearch'];
-handler.register = true;
+handler.register = False;
 
 export default handler;
 

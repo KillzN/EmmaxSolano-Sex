@@ -10,9 +10,9 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     // VCARD
     let list = [{
-        displayName: "Mvrco Sexo",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: Mvrco Sexo
-\nitem1.TEL;waid=56983073328:56983073328\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: ineffable.mvrco@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/ineffable.mvrco\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+        displayName: "EmmaxSolano",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: EmmaxSolano
+\nitem1.TEL;waid=59894064810:59894064810\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: 69keqqo@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/69keqqo\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
@@ -23,10 +23,10 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         contextInfo: {
             externalAdReply: {
                 showAdAttribution: true,
-                title: 'Hello, I am the official creator of MvrcoSex.',
+                title: 'Hello, I am the official creator of EmmaxSolano.',
                 body: dev,
-                thumbnailUrl: 'https://files.catbox.moe/zxwd04.jpg',
-                sourceUrl: 'https://wa.me/56983073328?text=Hola+quiero+adquirir+bot',
+                thumbnailUrl: 'https://files.catbox.moe/19cwhc.jpg',
+                sourceUrl: 'https://wa.me/59894064810?text=Hola+quiero+adquirir+bot',
                 mediaType: 1,
                 renderLargerThumbnail: true
             }

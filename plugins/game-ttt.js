@@ -1,6 +1,6 @@
 import TicTacToe from '../lib/tictactoe.js';
 
-const handler = async (m, {conn, usedPrefix, command, text}) => {
+const handler = async (m, { conn, usedPrefix, command, text }) => {
   conn.game = conn.game || {};
 
   if (Object.values(conn.game).find((room) => room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender))) {
@@ -48,8 +48,8 @@ const handler = async (m, {conn, usedPrefix, command, text}) => {
 Turno de @${room.game.currentTurn.split('@')[0]}
 `.trim();
 
-    if (room.x !== room.o) await conn.sendMessage(room.x, {text: str, mentions: conn.parseMention(str)}, {quoted: m});
-    await conn.sendMessage(room.o, {text: str, mentions: conn.parseMention(str)}, {quoted: m});
+    if (room.x !== room.o) await conn.sendMessage(room.x, { text: str, mentions: conn.parseMention(str) }, { quoted: m });
+    await conn.sendMessage(room.o, { text: str, mentions: conn.parseMention(str) }, { quoted: m });
   } else {
     room = {
       id: 'tictactoe-' + Date.now(),
@@ -67,5 +67,5 @@ Turno de @${room.game.currentTurn.split('@')[0]}
 };
 
 handler.command = ['ttt', 'tictactoe'];
-handler.register = true;
+handler.register = False;
 export default handler;

@@ -1,14 +1,14 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
-const handler = async (m, {conn, args, command, usedPrefix}) => {
-if (!db.data.chats[m.chat].nsfw && m.isGroup) {
+const handler = async (m, { conn, args, command, usedPrefix }) => {
+  if (!db.data.chats[m.chat].nsfw && m.isGroup) {
     return m.reply(hotw);
-    }
+  }
 
   if (!args[0]) {
     return m.reply(`*🍁 Por favor, ingresa un enlace válido de xnxx.*`);
-}
+  }
   try {
     await m.react('⏳');
     let xnxxLink = '';
@@ -35,20 +35,20 @@ if (!db.data.chats[m.chat].nsfw && m.isGroup) {
     }
     const res = await xnxxdl(xnxxLink);
     const json = await res.result.files;
-    conn.sendMessage(m.chat, {document: {url: json.high}, mimetype: 'video/mp4', fileName: res.result.title}, {quoted: m});
+    conn.sendMessage(m.chat, { document: { url: json.high }, mimetype: 'video/mp4', fileName: res.result.title }, { quoted: m });
   } catch {
     throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:\n*◉ https://www.xnxx.com/video-14lcwbe8/rubia_novia_follada_en_cuarto_de_bano*`;
   }
 };
 
 handler.command = ['xnxxdl', 'xnxx'];
-handler.register = true;
+handler.register = False;
 export default handler;
 
 async function xnxxdl(URL) {
   return new Promise((resolve, reject) => {
-    fetch(`${URL}`, {method: 'get'}).then((res) => res.text()).then((res) => {
-      const $ = cheerio.load(res, {xmlMode: false});
+    fetch(`${URL}`, { method: 'get' }).then((res) => res.text()).then((res) => {
+      const $ = cheerio.load(res, { xmlMode: false });
       const title = $('meta[property="og:title"]').attr('content');
       const duration = $('meta[property="og:duration"]').attr('content');
       const image = $('meta[property="og:image"]').attr('content');
@@ -64,8 +64,9 @@ async function xnxxdl(URL) {
         thumb: videoScript.match('html5player.setThumbUrl\\(\'(.*?)\'\\);' || [])[1],
         thumb69: videoScript.match('html5player.setThumbUrl169\\(\'(.*?)\'\\);' || [])[1],
         thumbSlide: videoScript.match('html5player.setThumbSlide\\(\'(.*?)\'\\);' || [])[1],
-        thumbSlideBig: videoScript.match('html5player.setThumbSlideBig\\(\'(.*?)\'\\);' || [])[1]};
-      resolve({status: 200, result: {title, URL, duration, image, videoType, videoWidth, videoHeight, info, files}});
-    }).catch((err) => reject({code: 503, status: false, result: err}));
+        thumbSlideBig: videoScript.match('html5player.setThumbSlideBig\\(\'(.*?)\'\\);' || [])[1]
+      };
+      resolve({ status: 200, result: { title, URL, duration, image, videoType, videoWidth, videoHeight, info, files } });
+    }).catch((err) => reject({ code: 503, status: false, result: err }));
   });
 }
