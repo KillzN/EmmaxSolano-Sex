@@ -14,7 +14,7 @@ const handler = async (m, { conn, usedPrefix, text }) => {
 🌐 *\`Menú Owner\`*
 ────────────────────────────
 *🌴 Nombre:* EmmaxSolano
-*☕ Creador:* @𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔
+*☕ Creador:* EmmaxSolano
 *📞 Número Creador:* +59894064810
 \`Lista de Comandos\`
 ╰➤ ׁ${xowner} ${usedPrefix}update
