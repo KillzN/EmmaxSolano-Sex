@@ -33,7 +33,6 @@ let handler = async (m, { conn, usedPrefix, text, command }) => {
 
 🎴 *\`Menús\`* ${xmenus}
 ╰➤ ${xmenus} ${usedPrefix}menunsfw
-╰➤ ${xmenus} ${usedPrefix}menuaudios
 ╰➤ ${xmenus} ${usedPrefix}menuff
 ╰➤ ${xmenus} ${usedPrefix}menuowner
 ╰➤ ${xmenus} ${usedPrefix}menulogos
