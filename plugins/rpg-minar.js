@@ -37,7 +37,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['minar']
 handler.tags = ['rpg']
 handler.command = ['minar', 'miming', 'mine']
-handler.register = False
+handler.register = true
 handler.group = true
 export default handler
 

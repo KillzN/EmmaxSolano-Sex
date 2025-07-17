@@ -19,7 +19,7 @@ handler.help = ['work']
 handler.tags = ['rpg']
 handler.command = ['work', 'trabajar', 'w']
 handler.group = true
-handler.register = False
+handler.register = true
 export default handler
 
 function segundosAHMS(segundos) {

@@ -16,7 +16,7 @@ handler.help = ['prostituirse']
 handler.tags = ['rpg']
 handler.command = ['prostituirse', 'prostituir', 'slut']
 handler.group = true
-handler.register = False
+handler.register = true
 
 export default handler
 

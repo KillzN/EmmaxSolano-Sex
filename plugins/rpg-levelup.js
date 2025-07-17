@@ -73,6 +73,6 @@ const handler = async (m, { conn }) => {
 handler.help = ['levelup'];
 handler.tags = ['xp'];
 handler.command = ['nivel', 'lvl', 'levelup', 'level'];
-handler.register = False;
+handler.register = true;
 handler.group = true;
 export default handler;

@@ -20,6 +20,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['bank']
 handler.tags = ['rpg']
 handler.command = ['bank', 'banco']
-handler.register = False
+handler.register = true
 handler.group = true
 export default handler 

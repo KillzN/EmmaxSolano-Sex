@@ -87,7 +87,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 };
 
 handler.command = /^(mediafire)$/i;
-handler.register = False;
+handler.register = true;
 handler.diamantes = 3;
 
 export default handler;

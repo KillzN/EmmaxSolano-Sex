@@ -10,5 +10,5 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['unreg']
 handler.tags = ['rg']
 handler.command = /^unreg(ister)?$/i
-handler.register = False
+handler.register = true
 export default handler

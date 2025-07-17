@@ -41,5 +41,5 @@ handler.command = ['fijar', 'unpin', 'desfijar', 'destacar', 'desmarcar']
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
-handler.register = False
+handler.register = true
 export default handler

@@ -51,7 +51,7 @@ handler.help = ['cofre'];
 handler.tags = ['rpg'];
 handler.command = ['coffer', 'cofre', 'abrircofre', 'cofreabrir'];
 handler.group = true;
-handler.register = False;
+handler.register = true;
 export default handler;
 
 function pickRandom(list) {

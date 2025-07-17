@@ -44,7 +44,7 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
 handler.help = ["mega"];
 handler.tags = ["descargas"];
 handler.command = /^(mega)$/i;
-handler.register = False;
+handler.register = true;
 handler.diamantes = 3;
 
 export default handler;

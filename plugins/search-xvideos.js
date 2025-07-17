@@ -39,7 +39,7 @@ const handler = async (m, { conn, args, command, usedPrefix }) => {
 };
 
 handler.command = ['xvideossearch', 'xvsearch'];
-handler.register = False;
+handler.register = true;
 
 export default handler;
 
