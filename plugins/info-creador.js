@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let list = [{
         displayName: "EmmaxSolano",
         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: EmmaxSolano
-\nitem1.TEL;waid=59894064810:59894064810\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: 69keqqo@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/69keqqo\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+\nitem1.TEL;waid=59894064810:59894064810\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: c:\Users\KillzN\Documents\EmmaxSolano-Sexo\plugins\rg-reg.js@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/69keqqo\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {

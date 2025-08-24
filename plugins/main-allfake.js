@@ -121,7 +121,7 @@ handler.all = async function (m) {
   var more = String.fromCharCode(8206)
   global.readMore = more.repeat(850)
 
-  global.packN = `Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
+  global.packN = `EmmaxSolano\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
   global.authN = `\n↳ @${usname}`;
 
   //FAKES
@@ -129,7 +129,7 @@ handler.all = async function (m) {
 
   global.idchannel = '120363394571210599@newsletter'
   global.canalIdM = ["120363394571210599@newsletter", "120363394571210599@newsletter", "120363394571210599@newsletter"]
-  global.canalNombreM = ["Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN", "Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN", "Pᴏʀɴʜᴜʙ: @BʏKɪʟʟᴢN"]
+  global.canalNombreM = ["EmmaxSolano", "EmmaxSolano", "EmmaxSolano"]
   global.channelRD = await getRandomChannel()
 
   global.icono = [

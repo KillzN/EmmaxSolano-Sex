@@ -26,14 +26,14 @@ global.prems = []
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.namebot = 'EmmaxSolano'
-global.packname = 'KɪʟʟᴢN'
-global.botname = '@𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔'
+global.packname = 'EmmaxSolano'
+global.botname = 'EmmaxSolano'
 global.wm = '𝙺𝙸𝙻𝙻 𝙱𝙾𝚃'
-global.author = '@𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔'
-global.dev = 'KɪʟʟᴢN'
+global.author = 'EmmaxSolano'
+global.dev = 'EmmaxSolano'
 global.club = 'EmmaxSolano'
 global.textbot = 'EmmaxSolano'
-global.etiqueta = '@𝖎𝖓𝖊𝖋𝖋𝖆𝖇𝖑𝖊.𝖒𝖛𝖗𝖈𝖔'
+global.etiqueta = 'EmmaxSolano'
 global.jadi = 'JadiBots'
 global.sessions = 'EmmaxSolanoSession'
 
