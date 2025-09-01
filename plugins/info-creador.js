@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let list = [{
         displayName: "SvyraBot",
         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: SvyraBot
-\nitem1.TEL;waid=59894064810:59894064810\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: c:\Users\KillzN\Documents\SvyraBot-Sexo\plugins\rg-reg.js@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/69keqqo\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+\nitem1.TEL;waid=59894064810:59894064810\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET:https://www.instagram.com/antvniaaax7\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/ineffable.mvrco\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Chile 🇨🇱;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {

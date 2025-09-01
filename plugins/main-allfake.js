@@ -59,7 +59,7 @@ handler.all = async function (m) {
   //ENLACES
   var group = 'https://chat.whatsapp.com/HqhAoXS8TCcJIn0KrbJZKz'
   var web = 'https://shadow-bot.vercel.app/'
-  let instagram = 'https://www.instagram.com/69keqqo'
+  let instagram = 'https://www.instagram.com/antvniaaax7'
 
   global.redes = [group, web, instagram].getRandom()
 

@@ -46,7 +46,7 @@ say('KILL\nSEXO', {
   align: 'center',
   gradient: ['red', 'magenta']
 });
-say(`Sigueme en ig: @69keqqo`, {
+say(`Sigueme en ig: @antvniaaax7`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
