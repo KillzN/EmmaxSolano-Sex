@@ -11,7 +11,7 @@ import fs, { readdirSync, statSync, unlinkSync, existsSync, mkdirSync, readFileS
 import yargs from 'yargs';
 import { spawn } from 'child_process'
 import lodash from 'lodash'
-import { EmmaxSolanoJadiBot } from './plugins/serbot-jadibot.js'
+import { SvyraBotJadiBot } from './plugins/serbot-jadibot.js'
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
 import { tmpdir } from 'os'
@@ -231,7 +231,7 @@ async function connectionUpdate(update) {
     }
   }
   if (connection == 'open') {
-    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【EmmaxSolano】⸺⸺⸺⸺❒`))
+    console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【SvyraBot】⸺⸺⸺⸺❒`))
   }
   let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
   if (connection === 'close') {
@@ -315,7 +315,7 @@ if (global.MvrcoJadibts) {
       const botPath = join(rutaJadiBot, gjbts)
       const readBotPath = readdirSync(botPath)
       if (readBotPath.includes(creds)) {
-        EmmaxSolanoJadiBot({ pathEmmaxSolanoJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
+        SvyraBotJadiBot({ pathSvyraBotJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot' })
       }
     }
   }

@@ -17,7 +17,7 @@ import { format } from 'util'
 import P from 'pino'
 import pino from 'pino'
 import Pino from 'pino'
-import { EmmaxSolanoJadiBot } from './plugins/jadibot-serbot.js'
+import { SvyraBotJadiBot } from './plugins/jadibot-serbot.js'
 import { Boom } from '@hapi/boom'
 import { makeWASocket, protoType, serialize } from './lib/simple.js'
 import {Low, JSONFile} from 'lowdb'
@@ -80,7 +80,7 @@ console.log('Conexiones ya inicializadas...');
 global.conns = [];
 }
 global.creds = 'creds.json'
-global.authFile = 'EmmaxSolanoSession'
+global.authFile = 'SvyraBotSession'
 global.authFileJB  = 'JadiBots'
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
@@ -223,7 +223,7 @@ if (opcion == '1' || methodCodeQR) {
 console.log(chalk.bold.green(`\n🌿 ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
-console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【EmmaxSolano】⸺⸺⸺⸺❒`))}
+console.log(chalk.bold.greenBright(`\n❒⸺⸺⸺⸺【• CONECTADO •】⸺⸺⸺⸺❒\n│\n│ ✅ Se ha conectado exitosamente.\n│\n❒⸺⸺⸺⸺【SvyraBot】⸺⸺⸺⸺❒`))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
 if (reason === DisconnectReason.badSession) {
@@ -348,7 +348,7 @@ for (const gjbts of readRutaJadiBot) {
 const botPath = join(rutaJadiBot, gjbts)
 const readBotPath = readdirSync(botPath)
 if (readBotPath.includes(creds)) {
-EmmaxSolanoJadiBot({pathEmmaxSolanoJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
+SvyraBotJadiBot({pathSvyraBotJadiBot: botPath, m: null, conn, args: '', usedPrefix: '/', command: 'serbot'})
 }
 }
 }

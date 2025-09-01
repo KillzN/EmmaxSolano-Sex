@@ -121,7 +121,7 @@ handler.all = async function (m) {
   var more = String.fromCharCode(8206)
   global.readMore = more.repeat(850)
 
-  global.packN = `EmmaxSolano\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
+  global.packN = `SvyraBot\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
   global.authN = `\n↳ @${usname}`;
 
   //FAKES
@@ -129,25 +129,25 @@ handler.all = async function (m) {
 
   global.idchannel = '120363394571210599@newsletter'
   global.canalIdM = ["120363394571210599@newsletter", "120363394571210599@newsletter", "120363394571210599@newsletter"]
-  global.canalNombreM = ["EmmaxSolano", "EmmaxSolano", "EmmaxSolano"]
+  global.canalNombreM = ["SvyraBot", "SvyraBot", "SvyraBot"]
   global.channelRD = await getRandomChannel()
 
   global.icono = [
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
-    "https://files.catbox.moe/19cwhc.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
+    "https://files.catbox.moe/gw83t3.jpg",
   ].getRandom()
 
   global.urls = [

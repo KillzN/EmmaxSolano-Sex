@@ -7,14 +7,14 @@ const handler = async (m, { conn, usedPrefix, text }) => {
 
   try {
     await m.react('👑'); // Reacción al mensaje
-    const imageUrl = 'https://files.catbox.moe/19cwhc.jpg'; // URL de la imagen
+    const imageUrl = 'https://files.catbox.moe/gw83t3.jpg'; // URL de la imagen
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0]; // Usuario que ejecuta el comando
 
     const str = `
 🌐 *\`Menú Owner\`*
 ────────────────────────────
-*🌴 Nombre:* EmmaxSolano
-*☕ Creador:* EmmaxSolano
+*🌴 Nombre:* SvyraBot
+*☕ Creador:* SvyraBot
 *📞 Número Creador:* +59894064810
 \`Lista de Comandos\`
 ╰➤ ׁ${xowner} ${usedPrefix}update

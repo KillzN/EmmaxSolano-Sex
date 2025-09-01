@@ -14,7 +14,7 @@ global.botNumber = '' //Ejemplo: 59894064810
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.owner = [
-  ['59894064810', 'EmmaxSolano', true]
+  ['59894064810', 'SvyraBot', true]
 ];
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
@@ -25,17 +25,17 @@ global.prems = []
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.namebot = 'EmmaxSolano'
-global.packname = 'EmmaxSolano'
-global.botname = 'EmmaxSolano'
+global.namebot = 'SvyraBot'
+global.packname = 'SvyraBot'
+global.botname = 'SvyraBot'
 global.wm = '𝙺𝙸𝙻𝙻 𝙱𝙾𝚃'
-global.author = 'EmmaxSolano'
-global.dev = 'EmmaxSolano'
-global.club = 'EmmaxSolano'
-global.textbot = 'EmmaxSolano'
-global.etiqueta = 'EmmaxSolano'
+global.author = 'SvyraBot'
+global.dev = 'SvyraBot'
+global.club = 'SvyraBot'
+global.textbot = 'SvyraBot'
+global.etiqueta = 'SvyraBot'
 global.jadi = 'JadiBots'
-global.sessions = 'EmmaxSolanoSession'
+global.sessions = 'SvyraBotSession'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
@@ -65,7 +65,7 @@ global.xreg = '🪴'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.github = 'https://github.com/KillzN/EmmaxSolano'
+global.github = 'https://github.com/KillzN/SvyraBot'
 global.grupo = 'https://chat.whatsapp.com/HqhAoXS8TCcJIn0KrbJZKz'
 global.comu = 'https://chat.whatsapp.com/Ehs4pdSEW4o9ub8G3SPVaT'
 global.channel = 'https://www.whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z'

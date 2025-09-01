@@ -1,5 +1,5 @@
 {
-    "name": "EmmaxSolano",
+    "name": "SvyraBot",
     "version": "3.0.0",
     "description": "WhatsApp Bot Multi Device",
     "main": "main.js",
@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/KillzN/EmmaxSolano",
+    "homepage": "https://github.com/KillzN/SvyraBot",
     "author": {
         "name": "Cristian Escobar"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/EmmaxSolano.git"
+        "url": "git+https://github.com/KillzN/SvyraBot.git"
     },
     "bugs": {
-        "url": "https://github.com/KillzN/EmmaxSolano/issues"
+        "url": "https://github.com/KillzN/SvyraBot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

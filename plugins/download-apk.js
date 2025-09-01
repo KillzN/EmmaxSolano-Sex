@@ -93,7 +93,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         document: { url: downloadUrl },
         mimetype: "application/vnd.android.package-archive",
         fileName: `${app.name}.apk`,
-        caption: `> Pᴏʀɴʜᴜʙ: EmmaxSolano`
+        caption: `> Pᴏʀɴʜᴜʙ: SvyraBot`
       },
       { quoted: m }
     );
